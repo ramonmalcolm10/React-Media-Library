@@ -1,5 +1,5 @@
-import React, {ReactElement} from "react";
-import {FileUploadListProps, FileUploadListItem} from "../../../types";
+import React, {type ReactElement} from "react";
+import type {FileUploadListProps, FileUploadListItem} from "../../../types";
 
 export enum FileUploadStatus {
 	FAILED = "failed",
